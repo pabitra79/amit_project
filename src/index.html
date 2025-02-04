@@ -1,0 +1,193 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tor.ai</title>
+    <link rel="icon" type="image/png/webp" sizes="32x64" href="/Preview.png">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class=" skicky fixed top-0 left-0 w-full bg-black bg-opacity-90 shadow-md z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
+
+            <!-- Logo -->
+            <a href="index.html" class="text-3xl font-bold text-white flex items-center ">
+                <span class="w-2 h-2 bg-orange-500 inline-block rounded-full mx-1"></span>
+                tor
+                <span class="text-orange-500">•</span>ai<sup>®</sup>
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex space-x-6 text-lg ml-64">
+                <li><a href="index.html" class="hover:text-orange-400 transition">Why Tor?</a></li>
+                <li><a href="/src/solution/index.html" class="hover:text-orange-400 transition">Solutions<span
+                            class="ml-1">+</span></a></li>
+                <li><a href="#" class="hover:text-orange-400 transition">Industries<span class="ml-1">+</span></a></li>
+                <li><a href="#" class="hover:text-orange-400 transition">Products<span class="ml-1">+</span></a></li>
+                <li><a href="#" class="hover:text-orange-400 transition">Company<span class="ml-1">+</span></a></li>
+                <li><a href="#" class="hover:text-orange-400 transition">Resources<span class="ml-1">+</span></a></li>
+            </ul>
+
+
+            <!-- CTA Button -->
+            <div class="flex items-center space-x-4">
+                <ul class="hidden md:flex space-x-4 text-lg">
+                    <a href="#"
+                        class="hidden md:block bg-orange-500 text-white px-4 py-2 rounded-sm hover:bg-orange-600 transition">
+                        Schedule demo
+                    </a>
+                </ul>
+            </div>
+
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none text-2xl">☰</button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden absolute top-16 left-0 w-full bg-black text-white flex flex-col items-center py-5 space-y-5 md:hidden">
+            <a href="index.html" class="text-lg hover:text-orange-400 transition">Why Tor ?</a>
+            <a href="/src/solution/index.html" class="text-lg hover:text-orange-400 transition">Solutions<span
+                    class="ml-1">▼</span></a>
+            <a href="#" class="text-lg hover:text-orange-400 transition">Industries<span class="ml-1">▼</span></a>
+            <a href="#" class="text-lg hover:text-orange-400 transition">Products<span class="ml-1">▼</span></a>
+            <a href="#" class="text-lg hover:text-orange-400 transition">Company<span class="ml-1">▼</span></a>
+            <a href="#" class="text-lg hover:text-orange-400 transition">Resources<span class="ml-1">▼</span></a>
+            <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">Schedule Demo</a>
+        </div>
+    </nav>
+
+    <!-- home section  -->
+
+<header id="home"
+    class="relative h-screen bg-cover bg-center flex items-center justify-center text-center text-black space-x-2.5"
+    style="background-image: url('/src/images/image1.avif'); transition: background-image 1s ease-in-out;">
+    <div class="absolute inset-0 bg-white/10"></div>
+    <div class="relative z-10">
+        <h1 class="text-5xl font-bold">Big Picture. Real Time.</h1>
+        <p class="mt-4 text-lg font-bold">Our solutions help businesses optimize performance, improve decision-making,
+            and
+            drive growth.</p>
+        <a href="#"
+            class="mt-6 inline-block bg-orange-500 px-6 py-3 text-lg rounded-lg hover:bg-orange-600 transition">Schedule
+            Demo</a>
+    </div>
+    <div class="absolute inset-y-0 left-0 flex flex-col justify-center ml-6 space-y-6">
+        <div class="bg-gray-500 p-4 rounded-lg shadow-md w-64 text-center">
+            <h3 class="text-lg font-bold">Real-Time Data</h3>
+            <p>Analyze live industry trends instantly.</p>
+        </div>
+        <div class="bg-gray-500 p-4 rounded-lg shadow-md w-64 text-center">
+            <h3 class="text-lg font-bold">AI-Driven Insights</h3>
+            <p>Use advanced AI to optimize performance.</p>
+        </div>
+        <div class="bg-gray-500 p-4 rounded-lg shadow-md w-64 text-center">
+            <h3 class="text-lg font-bold">Seamless Integration</h3>
+            <p>Connect easily with your current tools.</p>
+        </div>
+    </div>
+</header>
+
+
+        <!-- Counter Section -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 justify-around w-full gap-4 bg-black py-2 text-center">
+            <div>
+                <h2 class="text-4xl font-bold" id="counter1">0</h2>
+                <p class="text-lg">Happy Client</p>
+            </div>
+            <div>
+                <h2 class="text-4xl font-bold" id="counter2">0</h2>
+                <p class="text-lg">Year Of Experience</p>
+            </div>
+            <div>
+                <h2 class="text-4xl font-bold" id="counter3">0</h2>
+                <p class="text-lg">Active Tags</p>
+            </div>
+            <div>
+                <h2 class="text-4xl font-bold" id="counter4">0</h2>
+                <p class="text-lg">Active Gateways</p>
+            </div>
+        </div>
+        <div class="w-full text-center">
+        
+            <!-- White Section -->
+            <div class="bg-white text-black py-16 px-6">
+                <p class="text-lg font-semibold">Our Purpose</p>
+                <h2 class="text-2xl md:text-3xl font-bold mt-2">
+                    We believe that a data-driven world will make business more efficient,
+                    employees more engaged, and the environment more sustainable.
+                </h2>
+            </div>
+        
+            <!-- Orange Section -->
+            <div class="bg-orange-600 text-white py-16 px-6">
+                <h2 class="text-2xl md:text-3xl font-bold">
+                    We are India's Largest Industrial IoT Company
+                </h2>
+                <p class="text-lg font-medium mt-2">PWC</p>
+            </div>
+        
+        </div>
+
+
+
+    <script>
+        const images = [
+                "images/image1.avif",
+                "images/image2.avif",
+                "images/image3.jpeg",
+                "images/image4.jpeg",
+                "images/image5.webp",
+            ];
+
+            let index = 0;
+
+            setInterval(() => {
+                index = (index + 1) % images.length;
+                console.log("Switching to:", images[index]); // Debugging
+                document.getElementById('home').style.backgroundImage = `url('${images[index]}')`;
+            }, 5000);
+        document.getElementById('menu-btn').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        function formatNumber(num) {
+                if (num >= 10000000) return (num / 1000000).toFixed(0) + "Mn+";
+                if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
+                if (num >= 100000) return (num / 1000).toFixed(0) + "K";
+                if (num >= 1000) return (num / 1000).toFixed(1) + "K";
+                return num;
+            }
+
+        function startCounter(id, target, duration) {
+                let counter = document.getElementById(id);
+                let start = 0;
+                let increment = target / (duration / 10); // Smooth animation
+
+                let interval = setInterval(() => {
+                    start += increment;
+                    if (start >= target) {
+                        start = target;
+                        clearInterval(interval);
+                    }
+                    counter.innerText =formatNumber(Math.floor(start));
+                }, 10);
+            }
+
+            window.onload = () => {
+                startCounter("counter1", 1000, 2000);
+                startCounter("counter2", 10, 1500);
+                startCounter("counter3", 10000000, 3000);
+                startCounter("counter4", 250000, 2500);
+            };
+
+    </script>
+</body>
+
+</html>
